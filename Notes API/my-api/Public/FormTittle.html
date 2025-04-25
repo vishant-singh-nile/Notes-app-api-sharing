@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Form</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>My Form</h2>
+
+  <form action="/submit" method="POST">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required>
+
+   
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
